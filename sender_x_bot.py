@@ -25,7 +25,8 @@ for name, fn in inspect.getmembers(CustomBot,inspect.isfunction):
 
 def main() -> None:
     MyBot=CustomBot()
-    MyBot.send_message(text='holi4')
+    print(MyBot)
+    MyBot.send_message(text='holi11')
 
 if __name__ == "__main__":
     main()
